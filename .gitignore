@@ -1,41 +1,23 @@
-# Binaries
+# Go binaries
 *.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary
 *.test
-
-# Output of the go coverage tool
 *.out
 
 # Dependency directories
 vendor/
 
-# IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS generated files
+# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Compiled binaries
-broadcast-server
-broadcast-client
+# Project specific binaries (فقط فایل‌های اجرایی، نه پوشه‌ها)
+/broadcast-server.exe
+/broadcast-client.exe
 cmd/server/server.exe
 cmd/client/client.exe
-cmd/server/server
-cmd/client/client
-
-# Go modules
-go.sum
