@@ -1,0 +1,7 @@
+# Binaries
+*.exe
+*.test
+vendor/
+.vscode/
+broadcast-server
+broadcast-client
